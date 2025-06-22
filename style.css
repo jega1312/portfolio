@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -9,6 +9,7 @@ html{
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  cursor: default;
 }
 
 .navbar {
@@ -22,9 +23,10 @@ html{
   min-width: 100%;
 }
 
-.name a{
+.name a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .nav-list {
@@ -39,12 +41,12 @@ html{
   color: white;
 }
 
-.hamburger{
+.hamburger {
   display: none;
   cursor: pointer;
 }
 
-.bar{
+.bar {
   display: flex;
   width: 25px;
   height: 3px;
@@ -87,7 +89,7 @@ html{
   padding-top: 30px;
 }
 
-.myself{
+.myself {
   text-align: center;
   padding-top: 30px;
   color: #004aad;
@@ -200,7 +202,7 @@ a button:hover {
   padding: 15px;
   background-color: #004aad;
   width: 700px;
-  margin-top: 50px;
+  margin-top: 80px;
   border-radius: 20px;
   border: 3px solid black;
 }
@@ -262,7 +264,7 @@ a button:hover {
   padding-bottom: 50px;
 }
 
-.education-box-container{
+.education-box-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -285,7 +287,7 @@ a button:hover {
   border: 3px solid black;
 }
 
-.education-logo{
+.education-logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -297,12 +299,11 @@ a button:hover {
   padding-bottom: 10px;
 }
 
-.education-details{
+.education-details {
   list-style: none;
   color: white;
   text-align: center;
 }
-
 
 .education-box1:hover,
 .education-box2:hover {
@@ -339,6 +340,7 @@ a button:hover {
   border: 3px solid black;
   outline: none;
   width: 530px;
+  cursor: text;
 }
 
 .contacts-box [type="email"] {
@@ -350,9 +352,12 @@ a button:hover {
   outline: none;
   border-radius: 10px;
   margin-top: 20px;
+  cursor: text;
 }
 
-.contacts-box [type="text"]:focus, [type="email"]:focus, textarea:focus {
+.contacts-box [type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
   border: 3px solid #004aad;
 }
 
@@ -360,7 +365,7 @@ a button:hover {
   padding: 10px;
 }
 
-.contacts-box .btn{
+.contacts-box .btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -394,26 +399,28 @@ a button:hover {
   color: white;
   padding: 30px;
   gap: 50px;
-  
 }
 
-.icon-container{
+.icon-container {
   display: flex;
 }
 
-.footer-container p i{
+.icon-container a img {
+  cursor: pointer;
+}
+
+.footer-container p i {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.white-icon{
+.white-icon {
   filter: brightness(0) invert(1);
 }
 
 /* Responsiveness */
 
 @media (max-width: 768px) {
-
   .navbar {
     flex-direction: row;
     align-items: flex-start;
@@ -421,7 +428,7 @@ a button:hover {
     gap: 20px;
   }
 
-  .name{
+  .name {
     font-size: 1rem;
   }
 
@@ -439,36 +446,36 @@ a button:hover {
     font-size: 1rem;
   }
 
-    .about-container {
+  .about-container {
     padding-top: 20px;
   }
 
-  .box-container{
+  .box-container {
     padding-top: 20px;
   }
 
-  .projects-container{
+  .projects-container {
     padding-top: 20px;
   }
 
- .education-box-container{
-  margin-top: 20px;
- }
+  .education-box-container {
+    margin-top: 20px;
+  }
 
-  .contacts-container{
+  .contacts-container {
     padding-top: 20px;
   }
 
-  .myself{
-    font-size: .80rem;
+  .myself {
+    font-size: 0.8rem;
   }
 
-  .about-text{
-    font-size: .70rem;
+  .about-text {
+    font-size: 0.7rem;
   }
 
-  button{
-    font-size: .60rem;
+  button {
+    font-size: 0.6rem;
   }
 
   .profile-pic {
@@ -476,15 +483,14 @@ a button:hover {
     height: 150px;
   }
 
-  .box-content h3{
-    font-size: .90rem;
+  .box-content h3 {
+    font-size: 0.9rem;
   }
 
   .projects-box {
     flex-direction: column;
     width: 80%;
     object-fit: contain;
-
   }
 
   .projects-content {
@@ -492,12 +498,12 @@ a button:hover {
     align-items: center;
   }
 
-  .projects-description{
+  .projects-description {
     text-align: center;
-    font-size: .70rem;
+    font-size: 0.7rem;
   }
 
-  .projects-description li{
+  .projects-description li {
     list-style: none;
     text-align: center;
   }
@@ -511,35 +517,38 @@ a button:hover {
     gap: 20px;
   }
 
-  .box1, .box2, .box3 {
+  .box1,
+  .box2,
+  .box3 {
     width: auto;
     padding: 20px;
   }
 
-  .skills-logo{
+  .skills-logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-   .skills-logo img{
+  .skills-logo img {
     height: 80px;
     width: 80px;
-   }
+  }
 
   .education-box-container {
     flex-direction: column;
     gap: 20px;
   }
 
-  .education-box1, .education-box2 {
+  .education-box1,
+  .education-box2 {
     width: 70%;
     padding: 20px;
   }
 
   .education-box-content h4,
-  .education-details{
-    font-size: .80rem;
+  .education-details {
+    font-size: 0.8rem;
   }
 
   .contacts-box [type="text"],
@@ -548,11 +557,11 @@ a button:hover {
     max-width: 90%;
   }
 
-  .contacts-box{
+  .contacts-box {
     margin-left: 10%;
   }
 
-  .contacts-box .btn{
+  .contacts-box .btn {
     margin-left: -10%;
   }
 
@@ -570,28 +579,26 @@ a button:hover {
     justify-content: center;
     width: 100%;
   }
-
 }
 
-@media (max-width:1024px){
-
-  .hamburger{
+@media (max-width: 1024px) {
+  .hamburger {
     display: block;
   }
 
-  .hamburger.active .bar:nth-child(2){
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
 
-  .hamburger.active .bar:nth-child(1){
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  .hamburger.active .bar:nth-child(3){
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .nav-list{
+  .nav-list {
     position: absolute;
     left: -100%;
     top: 60px;
@@ -604,11 +611,11 @@ a button:hover {
     padding: 20px 0;
   }
 
-  .nav-item{
+  .nav-item {
     margin: 16px 0;
   }
 
-  .nav-list.active{
+  .nav-list.active {
     left: 0;
   }
 }
