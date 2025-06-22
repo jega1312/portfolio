@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <h2 class="name"><a href="#about">Jegathiswaran Thiaghu</a></li></h2>
+
+      
+      <nav class="nav-links">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about">About Me</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item" id="contact-me"><a href="#contact">Contact Me</a></li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+  
+
+    </header>
+
+    <main class="about" id="about">
+      <div class="about-container">
+        <h2 class="about-title">About Me</h2>
+
+        <div class="img-center">
+          <img
+            src="img/Profile.jpg"
+            alt="Profile Picture"
+            class="profile-pic"
+          />
+        </div>
+
+        <h3 class="myself">I'm an aspiring web developer 😊</h3>
+
+        <p class="about-text">
+          I am an enthusiastic IT undergraduate with a solid <br />
+          foundation in web development. Keen to apply my skills <br />and knowledge through hands-on experience and <br />contribute meaningfully through an internship.
+        </p>
+
+        <div class="button">
+          <a href="img/JEGATHISWARAN-RESUME.pdf" download>
+            <button>Download Resume</button>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <section class="skills" id="skills">
+      <div class="skills-container">
+        <h2 class="skills-title">Skills</h2>
+
+        <div class="box-container">
+          <div class="box1">
+            <div class="box-content">
+              <h3>HTML</h3>
+              <div class="skills-logo">
+                <img src="img/html-logo.png" alt="html logo" />
+              </div>
+            </div>
+          </div>
+
+          <div class="box2">
+            <div class="box-content">
+              <h3>CSS</h3>
+              <div class="skills-logo">
+                <img src="img/css-logo.png" alt="css logo" />
+              </div>
+            </div>
+          </div>
+
+          <div class="box3">
+            <div class="box-content">
+              <h3>JavaScript</h3>
+              <div class="skills-logo">
+                <img src="img/js-logo.png" alt="js logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects-container">
+        <h2 class="projects-title">Projects</h2>
+
+        <div class="projects-container-content">
+          <div class="projects-box">
+            <div class="projects-content">
+              <div class="projects-img">
+                <img
+                  src="img/glucopredictor.png"
+                  alt="glucopredictor"
+                  height="120px"
+                />
+              </div>
+              <div class="projects-description">
+                <h4>
+                  GlucoPredictor: A Web-based Diabetes Risk Assessment & Data
+                  Entry System
+                </h4>
+                <a href="https://github.com/jega1312/GlucoPredictor"
+                  >GitHub Link</a
+                >
+                <ul>
+                  <li>
+                    Provides rule-based & AI-based personalized health tips
+                    using a trained XGBoost model based on user risk assessment.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="education-container">
+        <h2 class="education-title">Education</h2>
+
+        <div class="education-box-container">
+          <div class="education-box1">
+            <div class="education-box-content">
+              <div class="education-logo">
+                <img
+                  src="img/education.png"
+                  alt="education icon"
+                  height="80px"
+                  width="80px"
+                />
+              </div>
+              <h4>Bachelor of Information Technology <br />(Honours)</h4>
+              <ul class="education-details">
+                <li>City University Malaysia, Cyberjaya</li>
+                <li>Start Date: September 2022</li>
+                <li>Expected Graduation Date: September 2025</li>
+                <li>CGPA: 3.87</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="education-box2">
+            <div class="education-box-content">
+              <div class="education-logo">
+                <img
+                  src="img/education.png"
+                  alt="education icon"
+                  height="80px"
+                  width="80px"
+                />
+              </div>
+              <h4>Foundation in Information <br />Technology</h4>
+              <ul class="education-details">
+                <li>City University Malaysia, Petaling Jaya</li>
+                <li>Start Date: September 2021</li>
+                <li>Completion Date: September 2022</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contacts-container">
+        <h2 class="contacts-title">Contact Me</h2>
+
+        <div class="contacts-box">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="Your Name" required/>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              autocomplete="off"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="80"
+              rows="10"
+              placeholder="Enter Your Message Here"
+              autocomplete="off"
+              required
+            ></textarea>
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p>
+          <i class="fas fa-envelope"></i><span>jegathiaghu@gmail.com</span><br>
+          <i class="fas fa-phone"></i><span>017-229 7250</span>
+        </p>
+
+        <p>&copy; 2025 Jegathiswaran Thiaghu.</p>
+
+        <div class="icon-container">
+          <a href="https://www.linkedin.com/in/jegathiswaran-thiaghu"
+            ><img
+              src="img/linkedin-logo.png"
+              alt="linkedin logo"
+              height="30px"
+              width="30px"
+          /></a>
+
+          <a href="https://github.com/jega1312"
+            ><img
+              src="img/github-logo.png"
+              alt="github logo"
+              height="30px"
+              width="50px"
+              class="white-icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+
+<script src="script.js"></script>
+  </body>
+</html>
