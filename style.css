@@ -372,7 +372,6 @@ textarea:focus {
 }
 
 .contacts-box button {
-  margin-top: 20px;
   background-color: #004aad;
   font-weight: bold;
   color: white;
@@ -553,16 +552,7 @@ textarea:focus {
 
   .contacts-box [type="text"],
   .contacts-box [type="email"] {
-    width: 100%;
     max-width: 90%;
-  }
-
-  .contacts-box {
-    margin-left: 10%;
-  }
-
-  .contacts-box .btn {
-    margin-left: -10%;
   }
 
   .contacts-box textarea {
