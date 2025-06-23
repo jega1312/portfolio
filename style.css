@@ -581,7 +581,7 @@ textarea:focus {
   }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .hamburger {
     display: block;
   }
@@ -617,5 +617,15 @@ textarea:focus {
 
   .nav-list.active {
     left: 0;
+  }
+
+  .contacts-box [type="text"],
+  .contacts-box [type="email"],
+  .contacts-box textarea {
+    width: 90%;
+    max-width: 90%;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
   }
 }
