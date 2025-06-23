@@ -619,26 +619,3 @@ textarea:focus {
     left: 0;
   }
 }
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .contacts-box {
-    width: 100%;
-    padding: 0 5%;
-    box-sizing: border-box;
-  }
-
-  .contacts-box [type="text"],
-  .contacts-box [type="email"],
-  .contacts-box textarea {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    display: block;
-    margin: 10px 0;
-  }
-
-  .contacts-box .btn {
-    justify-content: center;
-    display: flex;
-  }
-}
