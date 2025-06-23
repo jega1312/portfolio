@@ -618,4 +618,22 @@ textarea:focus {
   .nav-list.active {
     left: 0;
   }
+
+  .contacts-box [type="text"],
+  .contacts-box [type="email"] {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contacts-box {
+    margin-left: 10%;
+  }
+
+  .contacts-box .btn {
+    margin-left: -10%;
+  }
+
+  .contacts-box textarea {
+    width: 100%;
+  }
 }
