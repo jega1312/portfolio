@@ -553,7 +553,8 @@ textarea:focus {
 
   .contacts-box [type="text"],
   .contacts-box [type="email"] {
-    max-width: 90%;
+    width: 100%;
+    max-width: 100%;
   }
 
   .contacts-box {
@@ -565,7 +566,7 @@ textarea:focus {
   }
 
   .contacts-box textarea {
-    max-width: 90%;
+    width: 100%;
   }
 
   .footer-container {
