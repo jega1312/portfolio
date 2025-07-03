@@ -358,16 +358,13 @@ a button:hover {
   border-radius: 10px;
   margin-top: 20px;
   cursor: text;
+  padding: 10px;
 }
 
 .contacts-box [type="text"]:focus,
 [type="email"]:focus,
 textarea:focus {
   border: 3px solid #004aad;
-}
-
-.contacts-box textarea::placeholder {
-  padding: 10px;
 }
 
 .contacts-box .btn {
