@@ -235,6 +235,11 @@ a button:hover {
   color: white;
 }
 
+.projects-description a:hover {
+  color: black;
+  cursor: pointer;
+}
+
 .projects-description li {
   margin-left: 15px;
   padding-top: 10px;
