@@ -344,7 +344,7 @@ a button:hover {
   display: block;
   border: 2px solid black;
   outline: none;
-  width: 530px;
+  width: 100%;
   cursor: text;
 }
 
