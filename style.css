@@ -235,6 +235,10 @@ a button:hover {
   color: white;
 }
 
+.projects-description i{
+  margin-right: 5px;
+}
+
 .projects-description a:hover {
   color: black;
   cursor: pointer;
