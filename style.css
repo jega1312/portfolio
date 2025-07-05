@@ -160,6 +160,7 @@ a button:hover {
   padding: 40px;
   border-radius: 20px;
   border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .box2 {
@@ -167,6 +168,7 @@ a button:hover {
   padding: 40px;
   border-radius: 20px;
   border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .box3 {
@@ -174,6 +176,7 @@ a button:hover {
   padding: 40px;
   border-radius: 20px;
   border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .box1:hover,
@@ -205,6 +208,7 @@ a button:hover {
   margin-top: 30px;
   border-radius: 20px;
   border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .projects-box:hover {
@@ -300,6 +304,7 @@ a button:hover {
   padding: 30px;
   border-radius: 20px;
   border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .education-box2 {
@@ -307,6 +312,7 @@ a button:hover {
   padding: 42px;
   border-radius: 20px;
   border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .education-logo {
