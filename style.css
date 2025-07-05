@@ -237,12 +237,12 @@ a button:hover {
   text-decoration: none;
 }
 
-.projects-description .projects-link{
+.projects-description .projects-link {
   display: flex;
   flex-direction: column;
 }
 
-.projects-description i{
+.projects-description i {
   margin-right: 5px;
 }
 
@@ -258,9 +258,9 @@ a button:hover {
   text-align: justify;
 }
 
-.projects-description .tech-stack-icon{
+.projects-description .tech-stack-icon {
   display: flex;
-  list-style:none;
+  list-style: none;
   column-gap: 5px;
 }
 
@@ -526,7 +526,7 @@ textarea:focus {
     flex-direction: column;
     width: 80%;
     object-fit: contain;
-
+    overflow: hidden;
   }
 
   .projects-content {
@@ -544,7 +544,8 @@ textarea:focus {
     text-align: center;
   }
 
-  .projects-description .tech-stack-icon{
+  .projects-description .tech-stack-icon {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -658,5 +659,20 @@ textarea:focus {
 
   .nav-list.active {
     left: 0;
+  }
+
+  @media (max-width: 320px){
+    #glucopredictor-skills-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 35px;
+  }
+
+  .xampp-logo {
+    grid-column: span 3;
+    justify-self: center;
+    margin-right: 25px;
+  }
   }
 }
