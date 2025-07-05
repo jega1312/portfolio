@@ -185,7 +185,7 @@ a button:hover {
 
 .projects-container {
   width: 100%;
-  min-height: 70vh;
+  min-height: 100vh;
   padding-bottom: 50px;
   background-color: whitesmoke;
 }
@@ -202,7 +202,7 @@ a button:hover {
   padding: 15px;
   background-color: #004aad;
   width: 700px;
-  margin-top: 80px;
+  margin-top: 30px;
   border-radius: 20px;
   border: 2px solid black;
 }
@@ -214,6 +214,7 @@ a button:hover {
 
 .projects-container-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -235,6 +236,11 @@ a button:hover {
   color: white;
 }
 
+.projects-description .projects-link{
+  display: flex;
+  flex-direction: column;
+}
+
 .projects-description i{
   margin-right: 5px;
 }
@@ -249,6 +255,12 @@ a button:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: justify;
+}
+
+.projects-description .tech-stack-icon{
+  display: flex;
+  list-style:none;
+  column-gap: 5px;
 }
 
 .projects-img {
@@ -513,6 +525,7 @@ textarea:focus {
     flex-direction: column;
     width: 80%;
     object-fit: contain;
+
   }
 
   .projects-content {
@@ -528,6 +541,11 @@ textarea:focus {
   .projects-description li {
     list-style: none;
     text-align: center;
+  }
+
+  .projects-description .tech-stack-icon{
+    justify-content: center;
+    align-items: center;
   }
 
   .projects-img {
