@@ -234,6 +234,7 @@ a button:hover {
 
 .projects-description a {
   color: white;
+  text-decoration: none;
 }
 
 .projects-description .projects-link{
