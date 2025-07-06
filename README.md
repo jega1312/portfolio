@@ -2,7 +2,8 @@
 
 Link: https://jega1312.github.io/portfolio/
 
-My first personal portfolio website built using HTML, CSS & JavaScript.
+- My first personal portfolio website built using HTML, CSS & JavaScript.
+- Custom contact form integrated with Google Sheets for handling submissions.
 
 **Note:** Used AI tools (e.g., ChatGPT) for reference and understanding during development.
 
