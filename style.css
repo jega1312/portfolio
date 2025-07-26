@@ -390,7 +390,7 @@ a button:hover {
 .contacts-box [type="text"]:focus,
 [type="email"]:focus,
 textarea:focus {
-  border: 3px solid #004aad;
+  border: 2px solid #004aad;
 }
 
 .contacts-box .btn {
