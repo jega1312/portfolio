@@ -158,6 +158,13 @@ a button:hover {
   padding-bottom: 20px;
 }
 
+.box-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .box1 {
   background-color: #004aad;
   padding: 40px;
@@ -182,9 +189,18 @@ a button:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
+.box4 {
+  background-color: #004aad;
+  padding: 40px;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
 .box1:hover,
 .box2:hover,
-.box3:hover {
+.box3:hover,
+.box4:hover {
   position: relative;
   top: -15px;
 }
@@ -237,6 +253,12 @@ a button:hover {
 
 .projects-description h4 {
   padding-bottom: 10px;
+}
+
+.projects-description h5 {
+  padding-bottom: 10px;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .projects-description a {
@@ -334,6 +356,14 @@ a button:hover {
   list-style: none;
   color: white;
   text-align: center;
+}
+
+.education-details li:first-child{
+  font-style: italic;
+}
+
+.education-box1 .education-details li:last-child{
+  font-weight: bold;
 }
 
 .education-box1:hover,
@@ -574,13 +604,15 @@ textarea:focus {
   }
 
   .box-container {
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
   }
 
   .box1,
   .box2,
-  .box3 {
+  .box3,
+  .box4 {
     width: auto;
     padding: 20px;
   }
