@@ -136,6 +136,8 @@ a button:hover {
   width: 100%;
   min-height: 70vh;
   padding-bottom: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .box-container {
@@ -603,7 +605,7 @@ textarea:focus {
     padding: 10px 0;
   }
 
-  .box-container {
+  .skills-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
