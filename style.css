@@ -160,7 +160,7 @@ a button:hover {
   padding-bottom: 20px;
 }
 
-.box-content{
+.box-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,11 +360,11 @@ a button:hover {
   text-align: center;
 }
 
-.education-details li:first-child{
+.education-details li:first-child {
   font-style: italic;
 }
 
-.education-box1 .education-details li:last-child{
+.education-box1 .education-details li:last-child {
   font-weight: bold;
 }
 
@@ -505,6 +505,47 @@ textarea:focus {
 }
 
 /* Responsiveness */
+
+
+@media (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-list {
+    position: absolute;
+    left: -100%;
+    top: 60px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #004aad;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding: 20px 0;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-list.active {
+    left: 0;
+  }
+
+}
 
 @media (max-width: 768px) {
   .navbar {
@@ -676,45 +717,7 @@ textarea:focus {
   }
 }
 
-@media (max-width: 1024px) {
-  .hamburger {
-    display: block;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .nav-list {
-    position: absolute;
-    left: -100%;
-    top: 60px;
-    gap: 0;
-    flex-direction: column;
-    background-color: #004aad;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-    padding: 20px 0;
-  }
-
-  .nav-item {
-    margin: 16px 0;
-  }
-
-  .nav-list.active {
-    left: 0;
-  }
-
-  @media (max-width: 320px) {
+@media (max-width: 320px) {
     #glucopredictor-skills-icons {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -727,5 +730,5 @@ textarea:focus {
       justify-self: center;
       margin-right: 25px;
     }
+
   }
-}
