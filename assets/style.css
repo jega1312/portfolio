@@ -56,20 +56,23 @@
 }
 
 @font-face {
-    font-family: 'Playwrite AU TAS';
-    src: url('../assets/fonts/PlaywriteAUTAS-Regular.eot');
-    src: url('../assets/fonts/PlaywriteAUTAS-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/PlaywriteAUTAS-Regular.woff2') format('woff2'),
-        url('../assets/fonts/PlaywriteAUTAS-Regular.woff') format('woff'),
-        url('../assets/fonts/PlaywriteAUTAS-Regular.ttf') format('truetype'),
-        url('../assets/fonts/PlaywriteAUTAS-Regular.svg#PlaywriteAUTAS-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Playwrite AU TAS";
+  src: url("../assets/fonts/PlaywriteAUTAS-Regular.eot");
+  src:
+    url("../assets/fonts/PlaywriteAUTAS-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/PlaywriteAUTAS-Regular.woff2") format("woff2"),
+    url("../assets/fonts/PlaywriteAUTAS-Regular.woff") format("woff"),
+    url("../assets/fonts/PlaywriteAUTAS-Regular.ttf") format("truetype"),
+    url("../assets/fonts/PlaywriteAUTAS-Regular.svg#PlaywriteAUTAS-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .font-playwrite {
-    font-family: 'Playwrite AU TAS', sans-serif;
+  font-family: "Playwrite AU TAS", sans-serif;
 }
 
 .bg-default {
@@ -85,8 +88,6 @@
   --bs-btn-font-family: "Oswald", sans-serif !important;
   letter-spacing: 0.05rem !important;
 }
-
-
 
 .badge {
   font-size: 14px !important;
@@ -260,6 +261,7 @@
 
 .animate-on-scroll {
   opacity: 0;
+  overflow: hidden;
 }
 
 .margin-3 {
@@ -293,7 +295,7 @@
 }
 
 .sticky-icon-bg::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 3px;
   left: 1px;
@@ -332,7 +334,6 @@
   }
 }
 
-
 .animate-custom-pulse {
   animation: custom-pulse 1.5s infinite ease-in-out;
   border-radius: 2rem;
@@ -360,15 +361,13 @@
 }
 
 #mainNavbar .nav-link {
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   transition: color 0.3s;
 }
 
 #mainNavbar .nav-link.active {
   color: #ffffff;
 }
-
-
 
 @media (min-width: 320px) {
   .project-card {
