@@ -1,3 +1,7 @@
+html, body{
+  background-color: #004aad !important;
+}
+
 @font-face {
   font-family: "Satisfy";
   src: url("../assets/fonts/Satisfy-Regular.eot");
