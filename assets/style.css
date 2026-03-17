@@ -373,6 +373,7 @@ html, body{
   color: #ffffff;
 }
 
+
 @media (min-width: 320px) {
   .project-card {
     width: 16rem !important;
