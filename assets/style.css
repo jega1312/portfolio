@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
   background-color: #004aad !important;
 }
 
@@ -95,6 +96,16 @@ html, body{
 
 .badge {
   font-size: 14px !important;
+  background-color: #004aad;
+}
+
+.badge-hover {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.badge-hover:hover {
+  cursor: default;
+  background-color: #000;
 }
 
 .navbar-fixed-top {
@@ -195,6 +206,12 @@ html, body{
 .owl-nav .owl-next {
   color: #fff !important;
   font-size: 1.25rem !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.owl-nav:hover .owl-prev:hover,
+.owl-nav:hover .owl-next:hover {
+  color: #000 !important;
 }
 
 .owl-dots {
@@ -373,7 +390,6 @@ html, body{
   color: #ffffff;
 }
 
-
 @media (min-width: 320px) {
   .project-card {
     width: 16rem !important;
@@ -399,7 +415,13 @@ html, body{
   .owl-nav .owl-prev,
   .owl-nav .owl-next {
     color: #fff !important;
-    font-size: 1.5rem !important;
+    font-size: 1.25rem !important;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .owl-nav:hover .owl-prev:hover,
+  .owl-nav:hover .owl-next:hover {
+    color: #000 !important;
   }
 
   .owl-dots {
