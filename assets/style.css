@@ -427,10 +427,6 @@ body {
   .owl-dots {
     display: block !important;
   }
-
-  .mb-md-6 {
-    margin-bottom: 4.5rem !important;
-  }
 }
 
 @media (max-width: 1024px) {
